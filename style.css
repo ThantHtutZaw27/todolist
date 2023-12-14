@@ -1,0 +1,88 @@
+:root {
+  --primary-color:  #754609; 
+  --secondary-color: #fcd197;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.hourandmiute{
+    display: flex;
+    flex-direction: row;
+}
+.input-container input[type="text"] {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.input-container input[type="submit"] {
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.todo-list li {
+    margin-bottom: 5px;
+}
+.submit:hover{
+    font-size: 15px;
+    opacity: 0.8;
+}
+.target{
+    font-weight: bold;
+}
+  .output1, .output2 {
+    border: 1px solid #000000;
+    padding: 5px;
+  }
+  .output1 {
+    background-color:var(--primary-color);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .output3{
+    float: right;
+  }
+  .removeBtn {
+    margin: 10px;
+    background-color:orange;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+.sortBtnContainer{
+  float: right;
+}
+.sortBtn{
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+}
+
+.sortBtn:hover{
+  opacity: 0.8;
+}
